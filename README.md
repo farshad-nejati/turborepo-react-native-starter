@@ -2,10 +2,6 @@
 
 This is an official starter Turborepo cloned from [turborepo-expamles](https://github.com/vercel/turbo/tree/main/examples/with-react-native-web)
 
-## What's inside?
-
-This Turborepo includes the following packages/apps:
-
 ## How to use
 
 Run the following command:
@@ -16,6 +12,10 @@ cd turborepo-react-native-starter
 yarn install
 git init . && git add . && git commit -m "Init"
 ```
+
+## What's inside?
+
+This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
