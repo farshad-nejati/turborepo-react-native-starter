@@ -1,4 +1,4 @@
-# Turborepo react-native starter
+# Dideo Monorepo
 
 This is an official starter Turborepo cloned from [turborepo-expamles](https://github.com/vercel/turbo/tree/main/examples/with-react-native-web)
 
