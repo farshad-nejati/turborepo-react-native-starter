@@ -1,13 +1,12 @@
 import { Button } from "ui";
-
-import styles from "../styles/index.module.css";
-
+import { Button as ButtonWeb } from "uiweb";
 export default function Web() {
   return (
-    <div className={styles.container}>
+    <div>
       <h1>Hi Web</h1>
 
-      <Button onClick={() => console.log("Pressed!")} text="Boop" />
+      <Button onClick={() => alert("Pressed!")} text="native button" />
+      <ButtonWeb onClick={() => alert('booom')}> Web ButtonWeb</ButtonWeb>
     </div>
   );
 }
