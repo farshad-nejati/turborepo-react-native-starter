@@ -7,7 +7,7 @@ This is an official starter Turborepo cloned from [turborepo-expamles](https://g
 Run the following command:
 
 ```sh
-git clone https://github.com/farshad-nejati/turborepo-react-native-starter
+git clone https://github.com/farshad-nejati/turborepo-react-native-starter.git
 cd turborepo-react-native-starter
 yarn install
 git init . && git add . && git commit -m "Init"
