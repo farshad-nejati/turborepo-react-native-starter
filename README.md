@@ -1,6 +1,6 @@
 # Turborepo react-native starter
 
-This is an official starter Turborepo.
+This is an official starter Turborepo cloned from [turborepo-expamles](https://github.com/vercel/turbo/tree/main/examples/with-react-native-web)
 
 ## What's inside?
 
