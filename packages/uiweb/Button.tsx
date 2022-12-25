@@ -1,19 +1,23 @@
-import * as React from "react";
-export const Button = ({children, ...rest}: React.ButtonHTMLAttributes<{}>) => {
+import React from "react";
+
+export const Button: React.FC<
+  {
+    variant?: "primary" | "secondary";
+  } & React.DetailedHTMLProps<
+    React.ButtonHTMLAttributes<HTMLButtonElement>,
+    HTMLButtonElement
+  >
+> = ({
+  children,
+  variant = "primary",
+  ...buttonProps
+}) => {
   return (
     <button
-      onClick={() => console.log("Hello")}
-      style={{
-        background: "orangered",
-        outline: "none",
-        border: "none",
-        padding: "8px 12px",
-        borderRadius: "4px",
-        color: "white",
-      }}
-      {...rest}
+      className={`button button--${variant}} ${className}`}
+      {...buttonProps}
     >
-      {children ? children : 'Boop'}
+      <>{children}</>
     </button>
   );
 };
