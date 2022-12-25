@@ -11,6 +11,7 @@ git clone https://github.com/farshad-nejati/turborepo-react-native-starter.git
 cd turborepo-react-native-starter
 yarn install
 git init . && git add . && git commit -m "Init"
+yarn turbo build
 ```
 
 ## What's inside?
